@@ -1,0 +1,17 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "a web-app with a search bar. Users enter words into the search bar and their word meanings are returned. Use the Oxford Dictionary API to retrieve the word meanings (and any additional data provided)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Zaeem Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.2.5"
+  }
+}
